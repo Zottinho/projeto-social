@@ -5,8 +5,28 @@
     padding: 0px;
 }
 body{
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
-    background: black url(imagens/tela-home.jpg) no-repeat top center;
+    background: rgb(255, 255, 255) url(imagens/tela-home.jpg) no-repeat top center;
     background-size: cover;
+}
+a{
+    display: block;
+    background-color: darkred;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+img{
+    width: 100vw;
+
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+a:hover{
+    background-color: red;
+
 }
